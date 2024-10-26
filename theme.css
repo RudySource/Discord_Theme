@@ -6,6 +6,7 @@
 @import url('https://eject37.github.io/DiscordTheme/RegionFlags.css');
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Russo+One&display=swap');
+@import url('https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/icons.css');
 
 /* .sidebar_c25c6d .item_a0::before {
     position: absolute;
@@ -147,7 +148,13 @@
     background-image: url("https://feorev.github.io/Themes/Discord/assets/SettingsIcons/Updates.svg");
 } */
 
-/* УДАЛЕНИЕ ЛИШНЕЙ ХУЙНИ */
+/* 
+ *
+ *
+ *УДАЛЕНИЕ ЛИШНЕЙ ХУЙНИ 
+ *
+ *
+ */
 
 /* button[aria-label="Начать активность"], */
 button[aria-label="Камера недоступна"],
@@ -233,11 +240,21 @@ button[aria-label="Start An Activity"] {
 	display: none;
 }
 
-/* РАЗДЕЛ С ОСНОВНЫМ НАСТРОЙКА */
+/* 
+ *
+ *
+ * РАЗДЕЛ С ОСНОВНЫМ НАСТРОЙКА
+ *
+ *
+ */
 
 :root {
 	/* --app-bg: url(https://hdwallsbox.com/wallpapers/l/1920x1080/49/black-white-stars-1920x1080-48946.jpg); */
 	--app-bg: url('https://i.pinimg.com/564x/b9/92/94/b992945cdaac8f255b3c92bd597d5324.jpg');
+	--app-bg: var(--main-alt);
+	--app-watermark-one: 'DISCORD - ';
+	--app-watermark-two: 'Theme by Rudy';
+	--app-title-bar-height: 22px;
 	--blur-bg: 10px;
 	--brightness-bg: 0.3;
 	--border-main: 1px solid rgba(255, 255, 255, 0.1);
@@ -1281,6 +1298,85 @@ article.embedWrapper_b558d0.embedFlexGrow_b558d0.embedFull_b0068a.embed_b0068a.m
 
 .vc-settings-quickActions-pill:hover {
 	background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/*
+ *
+ *	Logo в углу discord'а
+ *
+ */
+
+.wordmark_a934d8.wordmarkWindows_a934d8 {
+	width: auto;
+	height: var(--app-title-bar-height);
+	padding: 0 0 0 4px;
+	line-height: var(--app-title-bar-height);
+	font-size: 0.9em;
+	color: var(--text-normal);
+}
+.wordmark_a934d8.wordmarkWindows_a934d8:before,
+.wordmark_a934d8.wordmarkWindows_a934d8:after {
+	position: relative;
+	width: auto;
+	height: var(--app-title-bar-height);
+}
+.wordmark_a934d8.wordmarkWindows_a934d8:before {
+	content: var(--app-watermark-one);
+	font-weight: 700;
+}
+.wordmark_a934d8.wordmarkWindows_a934d8:after {
+	content: var(--app-watermark-two);
+}
+.wordmark_a934d8.wordmarkWindows_a934d8 svg {
+	display: none;
+}
+
+/*
+ *
+ *	ЛИСТ КАНАЛОВ, ИХ ИКОНКИ
+ *
+ */
+
+.sidebar_a4d4d9 {
+	background-color: var(--main-color);
+	border-radius: var(--card-radius-big) 0 0 var(--card-radius-big) !important;
+	overflow: hidden;
+}
+.sidebar_a4d4d9.hasNotice_a4d4d9 {
+	border-radius: 0 !important;
+}
+.sidebar_a4d4d9 .container_ee69e0 {
+	background-color: transparent;
+}
+.sidebar_a4d4d9 .content_eed6a8 {
+	margin-bottom: 11px;
+}
+.sidebar_a4d4d9 .name_a08117 {
+	font-size: 14px;
+	text-transform: none;
+}
+.sidebar_a4d4d9 .container_fd6364:not(.hasBanner_fd6364) .header_fd6364 {
+	background-color: var(--main-color);
+}
+.sidebar_a4d4d9 .unread_c10249 {
+	font-size: 14px;
+	text-transform: none;
+	background-color: var(--popout-color);
+	box-shadow: var(--shadow-2dp);
+	color: var(--text-normal);
+}
+
+.link_d8bfb3 {
+	margin: 0 8px;
+	padding: 0 !important;
+	background-color: transparent !important;
+	overflow: visible;
+}
+.link_d8bfb3 .linkTop_d8bfb3,
+.link_d8bfb3 .content_cc29d1 {
+	min-height: 32px;
+	gap: 8px;
+	align-items: center;
 }
 
 @keyframes ani-rotate {
