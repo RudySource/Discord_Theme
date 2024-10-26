@@ -236,7 +236,8 @@ button[aria-label="Start An Activity"] {
 /* РАЗДЕЛ С ОСНОВНЫМ НАСТРОЙКА */
 
 :root {
-	--app-bg: url(https://hdwallsbox.com/wallpapers/l/1920x1080/49/black-white-stars-1920x1080-48946.jpg);
+	/* --app-bg: url(https://hdwallsbox.com/wallpapers/l/1920x1080/49/black-white-stars-1920x1080-48946.jpg); */
+	--app-bg: url('https://i.pinimg.com/564x/b9/92/94/b992945cdaac8f255b3c92bd597d5324.jpg');
 	--blur-bg: 10px;
 	--brightness-bg: 0.3;
 	--border-main: 1px solid rgba(255, 255, 255, 0.1);
