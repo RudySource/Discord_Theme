@@ -249,8 +249,8 @@ button[aria-label="Start An Activity"] {
  */
 
 :root {
-	/* --app-bg: url(https://hdwallsbox.com/wallpapers/l/1920x1080/49/black-white-stars-1920x1080-48946.jpg); */
-	--app-bg: url('https://i.pinimg.com/564x/b9/92/94/b992945cdaac8f255b3c92bd597d5324.jpg');
+	/* --app-bg: url(https://hdwallsbox.com/wallpapers/l/1920x1080/49/black-white-stars-1920x1080-48946.jpg); - Это серый фон*/
+	/* --app-bg: url('https://i.pinimg.com/564x/b9/92/94/b992945cdaac8f255b3c92bd597d5324.jpg'); - Это ветка фон  */
 	--app-bg: var(--main-alt);
 	--app-watermark-one: 'DISCORD - ';
 	--app-watermark-two: 'Theme by Rudy';
