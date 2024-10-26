@@ -149,8 +149,8 @@
 } */
 
 :root {
-	--app-bg: url(https://yt3.googleusercontent.com/-K_KmDfwXRUHcTuhunb7NCxdEwTaYrEfVj-Frce3Z_9pptSwqhqPAnJrVOqNziubUUu2L1wn=w2276-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj);
-	--blur-bg: 80px;
+	--app-bg: url(https://hdwallsbox.com/wallpapers/l/1920x1080/49/black-white-stars-1920x1080-48946.jpg);
+	--blur-bg: 10px;
 	--brightness-bg: 0.3;
 	--border-main: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -182,9 +182,9 @@
 }
 :root {
 	/* Шрифт */
-	--font-primary: 'Montserrat', Arial, sans-serif;
-	--font-display: 'Montserrat', Arial, sans-serif;
-	--font-headline: 'Montserrat', Arial, sans-serif;
+	--font-primary: 'Comfortaa', sans-serif;
+	--font-display: 'Comfortaa', sans-serif;
+	--font-headline: 'Comfortaa', sans-serif;
 	--status-positive: rgba(255, 255, 255, 0.7);
 	--text-positive: rgba(255, 255, 255, 0.67);
 	/* Цвет загрузки демок и прочего */
@@ -219,7 +219,7 @@
 :root:lang(el),
 :root:lang(ru),
 :root:lang(uk) {
-	--font-primary: 'Montserrat', Arial, sans-serif;
+	--font-primary: 'Comfortaa', sans-serif;
 	--font-display: 'Montserrat', Arial, sans-serif;
 	--font-headline: 'Montserrat', Arial, sans-serif;
 }
@@ -238,7 +238,7 @@ body {
 
 /* Credits */
 .info_c5a741::before {
-	content: 'Theme by jAba & Eject';
+	content: 'Theme by Rudy';
 	color: var(--text-muted);
 	font-size: 14px;
 	padding-bottom: 10px;
@@ -324,7 +324,7 @@ body {
 
 /* Выделение текста */
 ::selection {
-	background: rgba(94, 98, 106, 0.4) !important;
+	background: rgba(126, 130, 138, 0.4) !important;
 }
 
 /* Кнопки в голосовом чате (офф микро, дать демку, выйти из звонка) */
@@ -543,11 +543,13 @@ a.anchor_af404b > span:not(.username_de3235) {
 
 /* Если тебя упомянули */
 .mentioned_d5deea {
-	background: rgba(226, 226, 226, 0.08) !important;
+	background: #ffffff54 !important;
+	border-radius: 20px;
 }
 /* Линия слева в сообщении в котором тебя упомянули */
 .mentioned_d5deea:before {
 	background-color: rgba(226, 226, 226, 0.16);
+	opacity: 0%; /* <- Эта хуйня делает полосу невидимой */
 }
 
 /* теги когда тэгаешь кого то */
@@ -763,11 +765,16 @@ button[class*='lookFilled_dd4f85']:hover {
 	border-radius: 6px;
 }
 
-/* когда кто то говорит */
-.border_ba4b17.speaking_ba4b17 {
-	box-shadow: inset 0 0 20px rgba(130, 130, 130, 0.7);
+/* Цвет кружка при разговоре в войс чате */
+[class*='avatarSpeaking'] {
+	border: 2px solid limegreen;
 }
-/* когда кто то говорит */
+
+/* когда кто то говорит на большом экране*/
+.border_ba4b17.speaking_ba4b17 {
+	box-shadow: inset 0 0 40px rgb(72, 255, 0);
+}
+/* когда активация войс чата */
 
 /* устройстав задний цвет */
 .sessionIcon_c7a2c0,
@@ -825,7 +832,6 @@ button[class*='lookFilled_dd4f85']:hover {
 }
 /* Green Ico demka ON */
 .upperBadge_c5f96a > .iconBadge_c96c45 {
-	background-color: transparent !important;
 	background-color: rgb(71, 71, 71) !important;
 }
 
@@ -871,18 +877,19 @@ button[class*='lookFilled_dd4f85']:hover {
 	max-width: 1000px !important;
 }
 .tip_e40c16::before {
-	content: 'Animated Glass Theme';
+	content: 'Добро пожаловать в Discord';
 	color: white !important;
 	display: flex;
 	justify-content: center;
 	font-size: 40px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Comfortaa', sans-serif;
 	font-weight: bold;
+	border-color: black;
 }
 
 .tip_e40c16::after {
-	animation: slidein 1s;
-	content: 'Updated: 20.08.2024 ';
+	animation: slidein 4s;
+	content: 'RUDY DISCORD THEME ';
 	color: white !important;
 	display: flex;
 	justify-content: center;
@@ -928,7 +935,7 @@ button[class*='lookFilled_dd4f85']:hover {
 
 /* Поставленная реакция на сообщение */
 .reactionMe_ec6b19 {
-	background: rgba(255, 255, 255, 0.15) !important;
+	background: rgba(143, 143, 143, 0.397) !important;
 }
 
 /* ветки на серверах */
@@ -1025,7 +1032,7 @@ button[class*='lookFilled_dd4f85']:hover {
 
 /* линия под ссылками */
 .anchor_af404b {
-	text-decoration-color: rgba(255, 255, 255, 0.45) !important;
+	text-decoration-color: rgba(0, 255, 128, 0.87) !important;
 }
 
 /* Черная линия в чате в разговоре */
@@ -1040,7 +1047,7 @@ button[class*='lookFilled_dd4f85']:hover {
 
 /* фон сообщений при наведении */
 .message_d5deea:hover {
-	background: rgba(190, 190, 190, 0.03) !important;
+	background: rgba(190, 190, 190, 0.123) !important;
 }
 
 .popout__4c91, /* статус действий на сервере	 */ 
@@ -1150,9 +1157,9 @@ article.embedWrapper_b558d0.embedFlexGrow_b558d0.embedFull_b0068a.embed_b0068a.m
 }
 
 /* цветовая панель в зависимости от цвета аватарки */
-.banner_d5fdb1 {
+/* .banner_d5fdb1 {
 	background-color: rgba(255, 255, 255, 0.1) !important;
-}
+} */
 
 /* добавить статус */
 .statusBubbleShape_d0a252 {
