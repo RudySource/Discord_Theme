@@ -441,6 +441,17 @@ body {
 #app-mount .staticButton_ef18ee:hover {
 	background-color: rgba(255, 255, 255, 0.2) !important; /*off call*/
 }
+#app-mount .red_ef18ee {
+	background-color: rgba(
+		168,
+		14,
+		14,
+		0.582
+	) !important; /*Кнопка сброса вызова*/
+}
+#app-mount .red_ef18ee:hover {
+	background-color: rgba(248, 2, 2, 0.534) !important; /*Кнопка сброса вызова*/
+}
 
 /* демка */
 .callContainer_d880dc {
