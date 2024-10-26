@@ -631,9 +631,10 @@ a.anchor_af404b > span:not(.username_de3235) {
 
 /* Если тебя упомянули */
 .mentioned_d5deea {
-	background: #ffffff54 !important;
+	background: #c5c5c518 !important;
 	border-radius: 20px;
 }
+
 /* Линия слева в сообщении в котором тебя упомянули */
 .mentioned_d5deea:before {
 	background-color: rgba(226, 226, 226, 0.16);
@@ -1120,7 +1121,7 @@ button[class*='lookFilled_dd4f85']:hover {
 
 /* линия под ссылками */
 .anchor_af404b {
-	text-decoration-color: rgba(0, 255, 128, 0.87) !important;
+	text-decoration-color: rgba(175, 175, 175, 0.527) !important;
 }
 
 /* Черная линия в чате в разговоре */
