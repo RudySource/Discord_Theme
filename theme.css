@@ -1030,6 +1030,20 @@ button[class*='lookFilled_dd4f85']:hover {
 	background: rgba(255, 0, 0, 1) !important;
 }
 
+/* ФОН ЧАТА В DISCORD  */
+.content_a7d72e {
+	background-color: rgba(23, 23, 24, 0.767);
+}
+
+/* Голосовая связь надпись */
+.rtcConnectionStatusConnected_c02c63 {
+	color: rgb(136, 255, 0);
+}
+
+.rtcConnectionStatusError_c02c63 {
+	color: red;
+}
+
 /* просмотр каналов на сервере */
 .channelRow_f04d06 {
 	background: rgba(255, 255, 255, 0.1) !important;
@@ -1388,6 +1402,10 @@ article.embedWrapper_b558d0.embedFlexGrow_b558d0.embedFull_b0068a.embed_b0068a.m
 	min-height: 32px;
 	gap: 8px;
 	align-items: center;
+}
+
+.container_feab95 {
+	background-color: rgb(28, 28, 29);
 }
 
 @keyframes ani-rotate {
