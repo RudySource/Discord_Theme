@@ -1049,6 +1049,11 @@ button[class*='lookFilled_dd4f85']:hover {
 	background: rgba(255, 255, 255, 0.1) !important;
 }
 
+/* Таблица активности в войс чате */
+.container_e88961 {
+	background-color: rgba(49, 49, 49, 0.952);
+}
+
 /* в вашем списке каналов нет этого канала НА СЕРВЕРЕ  */
 .chatHeaderBar_efb691 {
 	background: rgba(255, 255, 255, 0.1) !important;
