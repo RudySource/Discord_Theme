@@ -887,6 +887,11 @@ button[class*='lookFilled_dd4f85']:hover {
 	border: 2px solid limegreen;
 }
 
+/* Цвет кружка при общении(разговоре) в лс */
+[class*='speaking_'] {
+	border: 3px solid limegreen;
+}
+
 /* когда кто то говорит на большом экране*/
 .border_ba4b17.speaking_ba4b17 {
 	box-shadow: inset 0 0 40px rgb(72, 255, 0);
