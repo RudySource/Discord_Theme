@@ -445,14 +445,6 @@ body {
 	);
 }
 
-.colorBrand_dd4f85 {
-	background: linear-gradient(
-		to right,
-		rgb(3, 154, 255),
-		rgba(0, 73, 121, 0.514)
-	);
-}
-
 /* Кнопки в голосовом чате (офф микро, дать демку, выйти из звонка) */
 #app-mount .staticButton_ef18ee,
 #app-mount .contextMenuNub_ef18ee {
