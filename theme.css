@@ -445,6 +445,22 @@ body {
 	);
 }
 
+.colorRed_dd4f85:hover {
+	background: linear-gradient(
+		to right,
+		rgba(255, 0, 0, 0.582),
+		rgba(255, 94, 0, 0.404)
+	);
+}
+
+.colorGreen_dd4f85:hover {
+	background: linear-gradient(
+		to right,
+		rgba(14, 172, 0, 0.527),
+		rgba(16, 185, 1, 0.356)
+	);
+}
+
 /* Кнопки в голосовом чате (офф микро, дать демку, выйти из звонка) */
 #app-mount .staticButton_ef18ee,
 #app-mount .contextMenuNub_ef18ee {
